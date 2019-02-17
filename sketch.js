@@ -1,8 +1,12 @@
+let avenir;
+function preload() {
+  avenir = loadFont('assets/Avenir.otf');
+}
 function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
 	textSize(50);
 	textAlign(CENTER, CENTER);
-	textFont('Georgia');
+	textFont(avenir);
 }
 
 function draw() {
