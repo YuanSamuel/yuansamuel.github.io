@@ -2,7 +2,7 @@ function setup() {
 	createCanvas(windowWidth, windowHeight, WEBGL);
 	textSize(50);
 	textAlign(CENTER, CENTER);
-
+	textFont('Georgia');
 }
 
 function draw() {
